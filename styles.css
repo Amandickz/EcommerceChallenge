@@ -1,0 +1,85 @@
+html, body{
+    width: 100%;
+}
+
+body{
+    width: auto;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    font-family: 'Roboto Serif';
+}
+
+ul li{
+    list-style-type: none;
+}
+
+#promo{
+    width: auto;
+    background-color: #F0DACD;
+    font-size: 15px;
+    font-style: normal;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#promo1, #promo2, #promo3{
+    max-width: max-content;
+}
+
+#top-menu{
+    background-color: white;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+header div{
+    border: 2px solid chartreuse;
+    max-width: max-content;
+}
+
+#logo img{
+    padding: 0;
+    margin: 0;
+}
+
+header p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #29180F;
+    font-style: italic;
+    max-width: min-content;
+}
+
+nav ul li{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+    font-style: normal;
+}
+
+#banner{
+    background-color: #C9B079;
+}
+
+#collection, #other-products1, #other-products2, #news{
+    background-color: #F7F2EC;
+}
+
+#characteristics, #opinions{
+    background-color: #E1EDE9;
+}
+
+#newsletter, #links{
+    background-color: #F0DACD;
+}

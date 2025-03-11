@@ -38,18 +38,40 @@ header{
     height: 90px;
     background-color: aqua;
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
+    justify-content: center;
 }
 
-header div{
+#menu{
+    border: 3px solid yellow;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#menu div{
     border: 2px solid chartreuse;
+    background-color: white;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
     max-width: max-content;
 }
 
 #logo img{
-    padding: 0;
+    width: 48px;
+    height: 57px;
+}
+
+#logo p{
     margin: 0;
+    padding: 0;
+    text-align: right;
 }
 
 header p{
@@ -60,13 +82,34 @@ header p{
     max-width: min-content;
 }
 
+nav{
+    background-color: #29180F;
+    max-width: max-content;
+}
+
+nav ul{
+    background-color: beige;
+}
+
 nav ul li{
     display: inline-block;
-    flex-direction: row;
-    justify-content: space-between;
     font-size: 18px;
     font-style: normal;
+    list-style-type: none;
+    background-color: blueviolet;
 }
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 0;
+    color: black;
+}
+/*
+#social-medias{
+    width: 24px;
+    height: 24px;
+}*/
 
 #banner{
     background-color: #C9B079;

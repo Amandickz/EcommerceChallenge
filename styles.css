@@ -306,7 +306,7 @@ nav ul li a{
     font-weight: 500;
 }
 
-.other-products button{
+.other-products button, #other-products2 button{
     width: 237px;
     height: 48px;
     color: white;
@@ -320,14 +320,13 @@ nav ul li a{
     box-shadow: 1px 3px 1px gray;
 }
 
-#characteristics, #opinions{
+#characteristics{
     background-color: #E1EDE9;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
     padding-top: 20px;
     padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .title-characteristics{
@@ -352,20 +351,76 @@ nav ul li a{
     margin: 10px 15px;
 }
 
-#list-characteristics{
-    background-color: white;
+.characteristic-list{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    padding-bottom: 50px;
 }
 
 .characteristic{
-    border: 1px solid;
+    border: 4px solid #C9B079;
+    text-align: center;
+    width: calc(75%/3);
+    background-color: white;
+    padding: 10px;
+    border-radius: 31px;
 }
 
-.text-characteristic{
+.img-characteristic img{
+    padding: 0;
+    margin: 0;
+}
 
+.text-characteristic h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.text-characteristic p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#banner-products2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -40px;
+    padding: 0 20px;
+    max-width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 62px;
+    border: 4px solid #C9B079;
+    box-shadow: 1px 5px 10px gray;
+}
+
+#banner-products2 img{
+    width: auto;
+    height: auto;
+}
+
+#banner-products2 h2{
+    font-family: 'Roboto Serif';
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+#other-products2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F2EC;
+    padding-bottom: 40px;
+}
+
+#opinion{
+    background-color: #E1EDE9;
 }
 
 #newsletter, #links{

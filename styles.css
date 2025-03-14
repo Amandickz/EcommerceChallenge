@@ -115,9 +115,9 @@ nav ul li a{
 }
 
 #banner{
-    background-color: #C9B079;
+    background-color: #F0DACD;
     height: 628px;
-    background-image: url(images/banner.png);
+    background-image: url(images/banner1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -163,7 +163,7 @@ nav ul li a{
     box-shadow: 5px 5px 20px gray;
 }
 
-#collection, #other-products1, #other-products2, #news{
+#collection, #news{
     background-color: #F7F2EC;
 }
 
@@ -174,6 +174,7 @@ nav ul li a{
 
 #collection h1{
     color: #29180F;
+    font-family: 'Roboto Serif';
     font-size: 48px;
     font-weight: 600;
     text-align: center;
@@ -214,6 +215,91 @@ nav ul li a{
     font-size: 16px;
     font-weight: 400;
     padding: 0 50px;
+}
+
+.other-products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F2EC;
+}
+
+.banner-products{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 62px;
+    border: 4px solid #C9B079;
+    box-shadow: 1px 5px 10px gray;
+}
+
+.banner-products img{
+    width: auto;
+    height: auto;
+}
+
+.banner-products h2{
+    font-family: 'Roboto Serif';
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.list-products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 50px 0;
+    padding: 0;
+}
+
+.product{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 37px;
+    border: 3px solid white;
+    text-align: center;
+    width: 302px;
+    height: 375px;
+}
+
+.img-product{
+    background-color: #F7F2EC;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 37px;
+    border-top-right-radius: 37px;
+}
+
+.img-product img{
+    width: auto;
+    position: relative;
+}
+
+.text-product h2{
+    font-size: 20px;
+    font-weight: 500;
 }
 
 #characteristics, #opinions{

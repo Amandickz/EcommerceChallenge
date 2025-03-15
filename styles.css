@@ -403,7 +403,7 @@ nav ul li a{
     height: auto;
 }
 
-#banner-products2 h2{
+#banner-products2 h1{
     font-family: 'Roboto Serif';
     font-size: 36px;
     font-weight: 500;
@@ -527,8 +527,89 @@ nav ul li a{
     background-color: #F0DACD;
 }
 
-#opinion{
+#opinions-clients{
     background-color: #E1EDE9;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner-opinions{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -40px;
+    padding: 0 20px;
+    max-width: 100%;
+    height: 70px;
+    background-color: white;
+    border-radius: 62px;
+    border: 4px solid #C9B079;
+    box-shadow: 1px 5px 10px gray;
+}
+
+#banner-opinions img{
+    width: auto;
+    height: auto;
+}
+
+#banner-opinions h1{
+    font-family: 'Roboto Serif';
+    font-size: 36px;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 15px;
+}
+
+#opinions{
+    border: 2px solid violet;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.opinion{
+    border: 2px solid brown;
+    width: calc(100%/3.3);
+    display: flex;
+    flex-direction: column;
+}
+
+.opinion p{
+    border: 2px solid violet;
+    margin: calc(100%/13);
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.opinion h3{
+    border: 2px solid yellow;
+    margin: 0 calc(100%/5);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.opinion h4{
+    border: 2px solid blue;
+    margin: 0 calc(100%/5);
+    margin-bottom: 15px;
+}
+
+#dots{
+    border: 2px solid steelblue;
+    margin: calc(100%/75);
+}
+
+.dot{
+    height: 8px;
+    width: 8px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 #newsletter, #links{

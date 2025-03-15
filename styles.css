@@ -633,13 +633,13 @@ footer{
     width: 96%;
 }
 
-#title-news{
+#title-footer-news{
     display: flex;
     flex-direction: column;
     width: 75%;
 }
 
-#title-news h1{
+#title-footer-news h1{
     margin-top: calc(100%/50);
     margin-bottom: 0;
     width: 100%;
@@ -647,7 +647,7 @@ footer{
     font-weight: 500;
 }
 
-#title-news h3{
+#title-footer-news h3{
     margin: 1% 0 0 0;
     margin-bottom: calc(100%/50);
     width: 100%;

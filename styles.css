@@ -621,40 +621,114 @@ nav ul li a{
 footer{
     background-color: #F0DACD;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #newsletter{
-    border: 2px solid;
     display: flex;
     justify-content: space-between;
+    padding: 1% 0;
+    width: 96%;
 }
 
 #title-news{
-    border: 2px solid violet;
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 75%;
 }
 
 #title-news h1{
-    border: 2px solid yellow;
-    padding: 0;
-    margin: 0;
+    margin-top: calc(100%/50);
+    margin-bottom: 0;
     width: 100%;
+    font-size: 36px;
+    font-weight: 500;
 }
 
 #title-news h3{
-    border: 2px solid tomato;
-    padding: 0;
-    margin: 0;
+    margin: 1% 0 0 0;
+    margin-bottom: calc(100%/50);
     width: 100%;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 #form-news{
-    border: 2px solid steelblue;
-    width: 30%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#email-news{
+    display: flex;
+}
+
+#email-news input[type=text]{
+    width: 221px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #505050;
+    border: 2px solid;
+    margin-right: 3%;
+}
+
+#email-news input[type=submit]{
+    width: 163px;
+    height: 53px;
+    background-color: #BF8B70;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#form-news a{
+    padding: 0;
+    color: black;
+    margin-top: 3%;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#division{
+    width: 96%;
+    border: 2px solid #C9B079;
+}
+
+#links{
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+#links ul{
+    text-align: left;
+    padding: 0;
+}
+
+#links li{
+    margin: 10px;
+}
+
+#links a{
+    text-decoration: none;   
+    color: #29180F;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.title-links{
+    font-size: 18px;
+    font-weight: 500;
+    color: #29180F;
 }
 
 #anotations{
     background-color: white;
+    width: 100%;
 }

@@ -618,6 +618,43 @@ nav ul li a{
     display: inline-block;
 }
 
-#newsletter, #links{
+footer{
     background-color: #F0DACD;
+    width: 100%;
+}
+
+#newsletter{
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title-news{
+    border: 2px solid violet;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#title-news h1{
+    border: 2px solid yellow;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#title-news h3{
+    border: 2px solid tomato;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#form-news{
+    border: 2px solid steelblue;
+    width: 30%;
+}
+
+#anotations{
+    background-color: white;
 }

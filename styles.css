@@ -529,7 +529,6 @@ nav ul li a{
 
 #opinions-clients{
     background-color: #E1EDE9;
-    border: 2px solid;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -565,21 +564,21 @@ nav ul li a{
 }
 
 #opinions{
-    border: 2px solid violet;
     width: 90%;
     display: flex;
     justify-content: space-between;
 }
 
 .opinion{
-    border: 2px solid brown;
+    border: 3px solid #C9B079;
+    background-color: white;
+    border-radius: 23px;
     width: calc(100%/3.3);
     display: flex;
     flex-direction: column;
 }
 
 .opinion p{
-    border: 2px solid violet;
     margin: calc(100%/13);
     margin-bottom: 20px;
     font-size: 18px;
@@ -587,21 +586,28 @@ nav ul li a{
 }
 
 .opinion h3{
-    border: 2px solid yellow;
     margin: 0 calc(100%/5);
     font-size: 16px;
     font-weight: 600;
 }
 
 .opinion h4{
-    border: 2px solid blue;
     margin: 0 calc(100%/5);
-    margin-bottom: 15px;
+    margin-bottom: calc(100%/15);
+    font-size: 14px;
+    font-weight: 400;
 }
 
 #dots{
-    border: 2px solid steelblue;
-    margin: calc(100%/75);
+    margin: calc(100%/50);
+}
+
+.dot-1{
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .dot{

@@ -731,4 +731,39 @@ footer{
 #anotations{
     background-color: white;
     width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0;
+}
+
+#logo-footer{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+#logo-footer img{
+    width: 48px;
+    height: 57px;
+}
+
+#logo-footer p{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+    color: #29180F;
+    font-style: italic;
+    max-width: min-content;
+}
+
+#copy{
+    width: 30%;
+    margin-right: 30px;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
 }

@@ -95,6 +95,31 @@ nav ul li a{
     color: black;
 }
 
+#menu-itens li ul{
+    position: absolute;
+    display:none;
+    background-color: white;
+    z-index: 1;
+}
+
+#menu-itens li:hover ul, #menu-itens li.over ul {
+    display:block;
+}
+
+#menu-itens li ul li{
+    display:block;
+    width:150px;
+    margin: 5px 0;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#menu-itens li ul li a:hover{
+    color: #BF8B70;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 #social-medias img{
     width: 24px;
     height: 24px;

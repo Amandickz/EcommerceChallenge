@@ -1,3 +1,4 @@
+/*Para telas com largura máxima de 767px*/
 @media screen and (max-width: 767px) {
     #promo{
         flex-direction: column;
@@ -135,6 +136,171 @@
     
     #form-news{
         width: 42%;
+    }
+    
+    #email-news{
+        display: flex;
+    }
+    
+    #email-news input[type=text]{
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    #email-news input[type=submit]{
+        width: 110px;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    #copy{
+        width: 50%;
+    }
+}
+
+/*Para telas com no máximo 950px*/
+
+@media screen and (min-width: 768px) and (max-width: 958px){
+    header{
+        padding: 10px 0;
+    }
+
+    #menu{
+        width: auto;
+    }
+
+    #logo{
+        position: relative;
+        left: calc((100%/35)*(-1));
+    }
+
+    #logo p{
+        position: relative;
+        left: calc((100%/15)*(-1));
+    }
+
+    #menu-itens{
+        text-align: center;
+        width: calc(100%/1.2);
+    }
+
+    #menu-itens li{
+        margin-top: 5px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #social-medias{
+        width: calc(100%/6);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin: 2%;
+        margin-right: 40px;
+        left: -5%;
+    }
+
+    #social-medias img{
+        margin: 5%;
+    }
+
+    #button-buy{
+        position: relative;
+        right: calc((100%/40)*(-1));
+    }
+
+    #banner{
+        background-color: #F0DACD;
+        background-image: url(images/banner1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: calc(628px/1.53);
+    }
+
+    #text-banner{
+        font-size: 16px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+
+    #text-banner p{
+        padding: 8px;
+    }
+
+    #collection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #collection h1{
+        width: 90%;
+    }
+
+    #collection-p{
+        text-align: center;
+        font-size: 20px;
+        margin: 0;
+        width: 90%;
+        margin-top: 3%;
+    }
+
+    .list{
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+    }
+    
+    .product{
+        margin: 2%;
+    }
+
+    .title-characteristics h1{
+        font-size: 40px;
+    }
+
+    #title-news{
+        padding: 5%;
+    }
+
+    #title-news h1{
+        font-size: 35px;
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    #posts{
+        flex-wrap: wrap;
+    }
+
+    #seconds-posts{
+        width: 90%;
+    }
+    
+    #title-footer-news{
+        width: 60%;
+    }
+    
+    #title-footer-news h1{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    #title-footer-news h3{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    
+    #form-news{
+        width: 32%;
     }
     
     #email-news{

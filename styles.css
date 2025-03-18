@@ -700,7 +700,7 @@ footer{
     margin-right: 3%;
 }
 
-#email-news input[type=submit]{
+#submit-email{
     width: 163px;
     height: 53px;
     background-color: #BF8B70;

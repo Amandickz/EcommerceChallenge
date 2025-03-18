@@ -293,9 +293,20 @@
             </div>
             <div id="form-news">
                 <form id="email-news">
-                    <input type="text" name="email" placeholder=" inserisci la tua email">
-                    <input type="submit" value="Isciviti adesso">
+                    <input type="text" id="email" name="email" placeholder=" inserisci la tua email">
+                    <button type="submit" id="submit-email">Isciviti adesso</button>
                 </form>
+                <script>
+                    document.getElementById('form-news').addEventListener('submit', function(event) {
+                        event.preventDefault();
+                        const email = document.getElementById('email').value;
+                        if (email) {
+                            alert("E-mail válido");
+                        } else {
+                            alert("E-mail inválido!")
+                        }
+                    });
+                </script>
                 <a href="#">Iscrivendoti accetti la nostra Privacy Policy</a>
             </div>
         </div>

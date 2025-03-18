@@ -148,7 +148,7 @@
         font-size: 14px;
     }
     
-    #email-news input[type=submit]{
+    #submit-email{
         width: 110px;
         height: 45px;
         font-size: 14px;
@@ -313,7 +313,7 @@
         font-size: 14px;
     }
     
-    #email-news input[type=submit]{
+    #submit-email{
         width: 110px;
         height: 45px;
         font-size: 14px;

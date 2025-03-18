@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="style-responsivo.css">
+    <script src="validations.js"></script>
     <title>Teddy Shop - E-Commerce</title>
 </head>
 <body>
@@ -49,7 +50,7 @@
                     <img src="images/social-icons/shopping-bag.png" alt="bag"/>
                 </div>
                 <div id="button-buy">
-                    <button href="#">Acquista ora</button>
+                    <button href="#" onclick="alertBuy()">Acquista ora</button>
                 </div>
             </div>
         </header>
@@ -128,7 +129,7 @@
                 </li>
             </ul>  
         </div>
-        <button>Esplora adesso</button>
+        <button onclick="alertEsplora()">Esplora adesso</button>
     </section>
     <section id="characteristics">
         <div class="title-characteristics">
@@ -217,7 +218,7 @@
                 </li>
             </ul>  
         </div>
-        <button>Esplora adesso</button>
+        <button onclick="alertEsplora()">Esplora adesso</button>
     </section>
     <section id="news">
         <div id="title-news">
@@ -292,21 +293,10 @@
                 <h3>Resta aggiornato sulle ultime novità, promozioni e offerte speciali.</h3>
             </div>
             <div id="form-news">
-                <form id="email-news">
-                    <input type="text" id="email" name="email" placeholder=" inserisci la tua email">
-                    <button type="submit" id="submit-email">Isciviti adesso</button>
+                <form id="email-news" name="formEmail">
+                    <input type="text" id="email" name="email" placeholder=" inserisci la tua email" required>
+                    <button type="submit" id="submit-email" onclick="testeValidacao(formEmail.email)">Isciviti adesso</button>
                 </form>
-                <script>
-                    document.getElementById('form-news').addEventListener('submit', function(event) {
-                        event.preventDefault();
-                        const email = document.getElementById('email').value;
-                        if (email) {
-                            alert("E-mail válido");
-                        } else {
-                            alert("E-mail inválido!")
-                        }
-                    });
-                </script>
                 <a href="#">Iscrivendoti accetti la nostra Privacy Policy</a>
             </div>
         </div>
